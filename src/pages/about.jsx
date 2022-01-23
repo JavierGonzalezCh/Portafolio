@@ -5,7 +5,7 @@ import "../styles/about.css"
 const About = () => {
     return(
     <main>
-        <img className="fotoPerfil" src={Foto} alt="foto de perfil" />
+        <img className="fotoPerfil" id="fotoPerfil" src={Foto} alt="foto de perfil" />
         <h1 className="name">Javier Gonzalez Chima</h1>
         <div className="personal_descr">
             <p>

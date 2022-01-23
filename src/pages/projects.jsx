@@ -19,6 +19,30 @@ const Projects = () => {
                 </ul>
                 <a className="" target="_blank" rel="noreferrer" href="https://github.com/JavierGonzalezCh/OracleOne_Encriptador">Ver Codigo</a>
             </a>
+            <a className="content one" href="https://javiergonzalezch.github.io/OracleOne_Encriptador/" target="_blank" rel="noreferrer">
+                <h1 className="title">Encriptador</h1>
+                <img className="preview" src={Encriptador} alt="Vista Previa"/>
+                <p className="project_descr">Encripta y desencripta mensajes</p>
+                <h2 className="subtitle">Tecnologias Usadas</h2>
+                <ul className="list">
+                   <li><img src={html}/></li>
+                   <li><img src={css}/></li>
+                   <li><img src={javascript}/></li>
+                </ul>
+                <a className="" target="_blank" rel="noreferrer" href="https://github.com/JavierGonzalezCh/OracleOne_Encriptador">Ver Codigo</a>
+            </a>
+            <a className="content one" href="https://javiergonzalezch.github.io/OracleOne_Encriptador/" target="_blank" rel="noreferrer">
+                <h1 className="title">Encriptador</h1>
+                <img className="preview" src={Encriptador} alt="Vista Previa"/>
+                <p className="project_descr">Encripta y desencripta mensajes</p>
+                <h2 className="subtitle">Tecnologias Usadas</h2>
+                <ul className="list">
+                   <li><img src={html}/></li>
+                   <li><img src={css}/></li>
+                   <li><img src={javascript}/></li>
+                </ul>
+                <a className="" target="_blank" rel="noreferrer" href="https://github.com/JavierGonzalezCh/OracleOne_Encriptador">Ver Codigo</a>
+            </a>
         </main>
     )
 }

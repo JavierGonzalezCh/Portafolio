@@ -4,20 +4,43 @@ main{
     flex-wrap: wrap;
 }
 .content{
-    margin: 5vh 3vw;
+    margin: 4vh 3vw;
     width: 25vw;
     border: 2px solid rgb(6, 252, 252);
     text-decoration: none;
     box-shadow: 0 0 1px rgb(6, 252, 252), 0 0 10px white;
     transition: 1s;
 }
+.content:hover{
+    width: 28vw;
+}
+@media (max-width:900px){
+    .content{
+        margin: 5vh 2vw;
+        width: 40vw;
+    } 
+    .content:hover{
+        width: 45vw;
+    }
+}
+@media (max-width:500px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 90vw;
+    }
+    .content:hover{
+        width: 90vw;
+    }
+}
+
 .preview{
     width: 100%;
 }
 .list{
     display: flex;
     column-gap: 5px;
-}
-.content:hover{
-    width: 28vw;
+    list-style: none;
 }
