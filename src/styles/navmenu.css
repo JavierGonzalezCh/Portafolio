@@ -1,0 +1,31 @@
+.menu{
+    background-color: #000000;
+    height: 10vh;
+    border-bottom: 2px solid rgb(6, 252, 252);
+    box-shadow: 0 5px 15px rgb(6, 252, 252), 0 0 30px white ;
+}
+.li_menu{
+    display: inline-block;
+    margin-left: 2.5rem;
+    line-height: 9vh;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    height: 10vh;
+}
+.item{
+    display: block;
+    padding: 0 .5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    transition: all 0.8s;
+}
+.active{
+    font-size: 1.7rem;
+    background-color: rgb(6, 252, 252);
+    color: black;
+    border: 3px solid rgb(6, 252, 252);
+}

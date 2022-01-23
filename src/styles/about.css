@@ -1,0 +1,40 @@
+.name{
+    font-size: 2.5rem;
+    margin: 20px auto;
+}
+.fotoPerfil{
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    height: 50vh;
+    transition: 2s;
+    filter: grayscale(100%);
+    border-radius: 40%;
+}
+.fotoPerfil:hover{
+    filter: none;
+    border-radius: 5%;
+    height: 65vh;
+    top: 25vh;
+    left: 8vw;
+}
+.personal_descr{
+    position: absolute;
+    width: 50vw;
+    height: 70%;
+    top: 9rem;
+    left: 40vw;
+    border-right: 2px solid rgb(6, 252, 252);
+    border-bottom: 2px solid rgb(6, 252, 252);
+}
+label{
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+.about_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
