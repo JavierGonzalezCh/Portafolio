@@ -1,28 +1,26 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
 .name{
     font-size: 2.5rem;
     margin: 20px auto;
 }
 .fotoPerfil{
     position: absolute;
-    top: 30vh;
-    left: 10vw;
-    height: 50vh;
-    transition: 2s;
-    filter: grayscale(100%);
-    border-radius: 40%;
-}
-.fotoPerfil:hover{
-    filter: none;
     border-radius: 5%;
-    height: 65vh;
+    width: 25vw;
     top: 25vh;
     left: 8vw;
+    filter: grayscale(100%);
 }
 .personal_descr{
     position: absolute;
     width: 50vw;
     height: 70%;
-    top: 9rem;
+    top: 25vh;
     left: 40vw;
     border-right: 2px solid rgb(6, 252, 252);
     border-bottom: 2px solid rgb(6, 252, 252);
@@ -37,4 +35,26 @@ label{
     flex-wrap: wrap;
     gap: 10px;
     list-style: none;
+    padding-left: 10px;
+}
+
+@media (max-width:500px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        font-size: 2rem;
+    }
+    .fotoPerfil{
+        position: static;
+        width: 35vw;
+        margin: auto;
+    }
+    .personal_descr{
+        position: static;
+        width: 80vw;
+        margin: auto;
+        
+    }
 }

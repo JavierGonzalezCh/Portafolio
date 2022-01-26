@@ -5,8 +5,8 @@ import "../styles/about.css"
 const About = () => {
     return(
     <main>
-        <img className="fotoPerfil" id="fotoPerfil" src={Foto} alt="foto de perfil" />
         <h1 className="name">Javier Gonzalez Chima</h1>
+        <img className="fotoPerfil" id="fotoPerfil" src={Foto} alt="foto de perfil" />
         <div className="personal_descr">
             <p>
             Soy una persona organizada y proactiva, me gusta los desafíos más difíciles y participar en nuevos proyectos, además de aportar todos los conocimientos que he adquirido en mi formación académica. Tengo capacidad para trabajar en equipo e impulsar valores que marquen a las personas como el del compañerismo y la amistad.

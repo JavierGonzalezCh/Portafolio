@@ -6,14 +6,38 @@ main{
 .content{
     margin: 4vh 3vw;
     width: 25vw;
+    padding: 1%;
     border: 2px solid rgb(6, 252, 252);
     text-decoration: none;
+    background-color: black;
     box-shadow: 0 0 1px rgb(6, 252, 252), 0 0 10px white;
     transition: 1s;
 }
 .content:hover{
     width: 28vw;
 }
+.title{
+    text-align: center;
+    text-transform: uppercase;
+}
+.preview{
+    width: 100%;
+}
+.project_descr{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.list{
+    display: flex;
+    column-gap: 5px;
+    list-style: none;
+    padding: 0;
+}
+.github{
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
+
 @media (max-width:900px){
     .content{
         margin: 5vh 2vw;
@@ -34,13 +58,4 @@ main{
     .content:hover{
         width: 90vw;
     }
-}
-
-.preview{
-    width: 100%;
-}
-.list{
-    display: flex;
-    column-gap: 5px;
-    list-style: none;
 }
