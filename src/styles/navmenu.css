@@ -17,7 +17,7 @@
 }
 .li_menu{
     list-style: none;
-    line-height: 9vh;
+    line-height: 10vh;
 }
 .logo{
     height: 10vh;
@@ -73,7 +73,6 @@
         color: white;
         background-color: rgb(0, 0, 0);
         border: none;
-        
         border-bottom: 3px solid rgb(6, 252, 252);
     }
     

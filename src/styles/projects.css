@@ -4,14 +4,14 @@ main{
     flex-wrap: wrap;
 }
 .content{
-    margin: 4vh 3vw;
+    margin: 4vh auto;
     width: 25vw;
     padding: 1%;
     border: 2px solid rgb(6, 252, 252);
     text-decoration: none;
     background-color: black;
     box-shadow: 0 0 1px rgb(6, 252, 252), 0 0 10px white;
-    transition: 1s;
+    transition: all 1s;
 }
 .content:hover{
     width: 28vw;
@@ -22,6 +22,7 @@ main{
 }
 .preview{
     width: 100%;
+    transition: 1s;
 }
 .project_descr{
     font-size: 1.3rem;
@@ -34,9 +35,11 @@ main{
     padding: 0;
 }
 .github{
+    display: block;
     font-size: 1.2rem;
     padding-top: 5px;
 }
+
 
 @media (max-width:900px){
     .content{
