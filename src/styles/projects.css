@@ -2,9 +2,11 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
 }
 .content{
-    margin: 4vh auto;
+    margin: 2vh auto;
     width: 25vw;
     padding: 1%;
     border: 2px solid rgb(6, 252, 252);
@@ -28,6 +30,9 @@ main{
     font-size: 1.3rem;
     text-align: justify;
 }
+.subtitle{
+    margin: 10px 0;
+}
 .list{
     display: flex;
     column-gap: 5px;
@@ -43,7 +48,6 @@ main{
 
 @media (max-width:900px){
     .content{
-        margin: 5vh 2vw;
         width: 40vw;
     } 
     .content:hover{
