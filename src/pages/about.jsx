@@ -9,15 +9,15 @@ const About = () => {
         <img className="fotoPerfil" id="fotoPerfil" src={Foto} alt="foto de perfil" />
         <div className="personal_descr">
             <p>
-            Soy una persona organizada y proactiva, me gusta los desafíos más difíciles y participar en nuevos proyectos, además de aportar todos los conocimientos que he adquirido en mi formación académica. Tengo capacidad para trabajar en equipo e impulsar valores que marquen a las personas como el del compañerismo y la amistad.
+            Hola, Soy Javier Gonzalez. Soy de la ciudad de bogota y estoy entrando en el mundo del desarrollo web.
             </p>
             <p>
-                Me considero una persona con gran capacidad de aprendizaje, la cual es capaz de poner en práctica las distintas técnicas aprendidas según sean requeridas, además me desenvuelvo de manera eficaz en situaciones de estrés y presión.
+            Soy una persona con gran capacidad de aprendizaje, disciplinada y con vision clara de la vida, como muestra de ello, la mayoria de mi conocimiento lo he adquirido con cursos virtuales o de manera autodidacta
             </p>
             <p>
-                Dispuesto a cumplir con las distintas funciones, obligaciones y normas laborales que tengan establecidas, me presento con gran entusiasmo a su empresa para formar parte del cumplimiento de metas planteadas en su misión.
+            Mis fortalezas recaen en mi gran capacidad para trabajar en equipo, la facilidad que tengo para adquirir nuevo conocimiento y la motivacion que me genera vincularme en el desarrollo de proyectos desafiantes
             </p>
-        <h2>Herramientas</h2>
+        <h2 className="subtitle">Herramientas</h2>
             <ul className="about_list">
                 <ToolList name="Html" value="75"/>
                 <ToolList name="Css" value="75"/>
@@ -28,14 +28,10 @@ const About = () => {
                 <ToolList name="Bootstrap" value="70"/>
                 <ToolList name="Tailwind" value="70"/>
                 <ToolList name="React" value="80"/>
+                <ToolList name="Vue" value="30"/>
                 <ToolList name="Node Js" value="40"/>
                 <ToolList name="Git" value="80"/>
-            </ul>
-        <h2>Metodologias</h2>
-            <ul className="about_list">
-                <li>Scrum</li>
-                <li>Kanban</li>
-                <li>Cascada</li>
+                
             </ul>
         </div>
     </main>

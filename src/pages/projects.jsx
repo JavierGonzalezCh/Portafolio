@@ -14,7 +14,7 @@ import tailwind from "../assets/icons/tailwind.svg"
 
 const Projects = () => {
     return(
-        <main>
+        <main className="main_porjects">
             <div className="content">
                 <Project 
                     title="Encriptador"

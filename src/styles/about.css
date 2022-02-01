@@ -24,8 +24,9 @@
     left: 40vw;
     border-right: 2px solid rgb(6, 252, 252);
     border-bottom: 2px solid rgb(6, 252, 252);
+    font-size: 1.2rem;
 }
-label{
+.tool{
     padding: 0 10px;
     font-size: 1.2rem;
 }
@@ -36,6 +37,10 @@ label{
     gap: 10px;
     list-style: none;
     padding-left: 10px;
+}
+
+@media (max-wisth:950px) {
+    
 }
 
 @media (max-width:500px){
@@ -55,6 +60,5 @@ label{
         position: static;
         width: 80vw;
         margin: auto;
-        
     }
 }
